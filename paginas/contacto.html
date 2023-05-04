@@ -9,15 +9,34 @@
 <body>
     <header>
         <nav>
+            <h1>LastPop</h1>
             <ul>
-                <li>Inicio</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Wiki</li>
+                <li>Artistas</li>
+                <li>Recomendaciones</li>
+                <li>Más generos</li>
+                <li>Contacto</li>
             </ul>
         </nav>
     </header>
-    <h2>Cuentanos... ¿Que artista recomendarias y por qué?</h2>
+    <main>
+        <div>
+            <h2>Cuentanos... ¿Que artista recomendarias y por qué?</h2>
+            <div>
+                <h3>Ingresa tus datos</h3>
+                <form action="/action_page.php">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" value="Nombre">
+                    <label for="email">Correo:</label>
+                    <input type="text" id="email" name="email" value="Correo">
+                    <label for="artist">Artista:</label>
+                    <input type="text" id="artist" name="artist" value="Miley Cyrus">
+                    <label for="reason">Motivo:</label>
+                    <input type="text" id="reason" name="reason" value="Recomiendo a este artista porque...">
+                    <input type="submit" value="Enviar">
+                  </form>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
