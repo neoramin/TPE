@@ -14,24 +14,22 @@
 }
 .a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.a1,.b2,.c3,.d4,.e5,.f6,.g7,.h8,.i9,.j10{
     height: 100%;
-    width: 100%;
-
-    
+    width: 100%; 
 }
 .b,.d,.e,.g,.a1,.b2,.d4,.e5,.g7{
-    background-color:;
+    background-color: yellow;
 }
-.a,.c,.f,.h,.i,.a1,.c3,.f6,.h8,.i9,{
-    background-color:;
+.a,.c,.f,.h,.i,.a1,.c3,.f6,.h8,.i9{
+    background-color: blue;
 }
 .bloque2{
     height: 600px;
-    background-color: ;
+    background-color: purple;
     display: flex;
 }
 .bloque3{
     height: 600px;
-    background-color:;
+    background-color: green;
     display: flex;
 }
 .img{
