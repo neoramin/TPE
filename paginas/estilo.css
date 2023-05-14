@@ -1,0 +1,48 @@
+.general,.general2{
+    background-color: burlywood;
+
+}
+.bloque1{
+    background-color: rgb(255, 255, 255);
+    
+   
+}
+.bloque1,.bloque4,.bloque5,.bloque6,.bloque{
+    height: 600px;
+
+    display: flex;
+}
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.a1,.b2,.c3,.d4,.e5,.f6,.g7,.h8,.i9,.j10{
+    height: 100%;
+    width: 100%;
+
+    
+}
+.b,.d,.e,.g,.a1,.b2,.d4,.e5,.g7{
+    background-color:;
+}
+.a,.c,.f,.h,.i,.a1,.c3,.f6,.h8,.i9,{
+    background-color:;
+}
+.bloque2{
+    height: 600px;
+    background-color: ;
+    display: flex;
+}
+.bloque3{
+    height: 600px;
+    background-color:;
+    display: flex;
+}
+.img{
+  margin: 10%;
+  text-align: center;
+}
+.mariabecerra{
+    text-align: center;
+    margin: 10%;  
+}
+h2{
+    margin: 10%;
+    
+}
