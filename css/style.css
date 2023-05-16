@@ -34,10 +34,17 @@ main {
 .cloud {
     background-color: aliceblue;
     margin: 30px;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 40px;
+    border-radius: 20px;
 }
 footer {
     background-color: black;
     color:aliceblue;
+}
+.fdiv-1 {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style: none;
 }
