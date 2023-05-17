@@ -81,26 +81,43 @@ hr {
 /*Artistas*/
 
 .bloque{
-    height: 300px;
+    height: 600px;
     display: flex;
-    margin: 20%;
-    margin-left: 30%;
+    margin: 10%;
     
 }
-.bloqueinte{
+.BloqueInterior{
     height: 100%;
     width: 100%;
-    display: flex;
-    margin: 1%;
-    overflow:hidden;
+    margin-bottom: 23%;
+    text-align: center;
     
+    text-overflow: ellipsis;
+    overflow:hidden ;
+  
 }
 .img{
-    width: 150px;
-    height: 150px;
-    border-radius: 23%;
+    width: 340px;
+    height: 250px;
+    border-radius: 10%;
 }
-.mariabecerra{
-    color: aqua;
+
+.Titulosh2{
+    margin-top:5%;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+background-color: rgb(0, 0, 0);
+margin-left: 10%;
+margin-right: 10%;
+}
+.TitulosH3{
+    margin: 10%;
+    font-size: 30px;
+    background-color: rgb(255, 0, 140);
+}
+.Parrafo_Artistas{
+    margin: 5%;
     display: flex;
+    font-size: 25px;
+  
 }
