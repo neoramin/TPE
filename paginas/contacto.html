@@ -37,15 +37,26 @@
                 <h3>Ingresa tus datos</h3>
                 <form action="/action_page.php">
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" value="Nombre">
+                    <input type="text" id="name" name="name" placeholder="Nombre" class="formin">
                     <label for="email">Correo:</label>
-                    <input type="text" id="email" name="email" value="Correo">
+                    <input type="text" id="email" name="email" placeholder="Correo" class="formin">
                     <label for="artist">Artista:</label>
-                    <input type="text" id="artist" name="artist" value="Miley Cyrus">
+                    <input type="text" id="artist" name="artist" placeholder="Miley Cyrus" class="formin">
                     <label for="reason">Motivo:</label>
-                    <input type="text" id="reason" name="reason" value="Recomiendo a este artista porque...">
+                    <input type="text" id="reason" name="reason" placeholder="Lo recomiendo porque.." class="formin">
                     <input type="submit" value="Enviar">
                 </form>
+                <div class="captcha">
+                    <label for="captcha-input">Enter Captcha</label>
+                    <p id="txt-random" class="preview"></p>
+                    <div class="captcha-form">
+                        <input type="text" id="captcha-form" placeholder="Escriba el código del captcha" class="formin">
+                        <button id="comprobar" type="button" class="captcha-refresh">
+                            checkear
+                        </button>
+                        <p id="verificacion"></p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -107,5 +118,6 @@
                 Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
         </div>
     </footer>
+    <script src="../Js/captcha.js"></script>
 </body>
 </html>
