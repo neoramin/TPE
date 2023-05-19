@@ -83,43 +83,42 @@ hr {
 .bloque{
     height: 600px;
     display: flex;
+    overflow: hidden;
+}
+.bloque,.TitulosH3{
     margin: 10%;
-    
 }
 .BloqueInterior{
-    height: 100%;
     width: 100%;
     margin-bottom: 23%;
+ 
+    margin: 2px;
+}
+.BloqueInterior,.Titulosh2{
     text-align: center;
-    
-    text-overflow: ellipsis;
-    overflow:hidden ;
-  
 }
 .img{
     width: 340px;
     height: 250px;
+  
+}
+.img,.Titulosh2{
     border-radius: 10%;
 }
-
 .Titulosh2{
-    margin-top:5%;
-    color: rgb(255, 255, 255);
-    font-size: 60px;
+ margin-top:10%;
+ color: rgb(255, 255, 255);
+ font-size: 60px;
 background-color: rgb(0, 0, 0);
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 18%;
+margin-right: 18%;
 }
 .TitulosH3{
-    margin: 10%;
     font-size: 30px;
     background-color: rgb(255, 0, 140);
 }
 .Parrafo_Artistas{
-    margin: 5%;
-    display: flex;
     font-size: 25px;
-  
 }
 
 /*mas generos*/
@@ -127,7 +126,7 @@ margin-right: 10%;
     margin-left: 10%;
     margin-right: 10%;
   display: flexbox;
-
+  /*borrar*/
 }
 .divide_contenedor,.imagenes,.contenedor_de_imagenes{
    display: inline-block;
