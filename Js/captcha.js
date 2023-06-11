@@ -27,3 +27,5 @@ function comprobar_captcha() {
         verificacionText.classList.remove("ok");
     }
 }
+
+
