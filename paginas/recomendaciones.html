@@ -97,63 +97,26 @@
         </div>
         <div>
             <h2>Recomendaciones de la comunidad</h2>
-            <table>
-                <tr>
-                  <th>Artista</th>
-                  <th>Cancion</th>
-                  <th>Rate</th>
-                </tr>
-                <tr>
-                  <td>KDA</td>
-                  <td>Villain</td>
-                  <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Miranda</td>
-                  <td>Don</td>
-                  <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Lewis Capaldi</td>
-                    <td>Someone you loved</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Abel Pintos</td>
-                    <td>Solo</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
+            <form id="formu">
+              <input id="artista"type="text" placeholder="artista" name="artista">
+              <label>Rango de recomendacion :</label><input id="rate"type="range" placeholder="rate" name="rate" >
+              <input id="cancion"type="text" placeholder="cancion" name="cancion">
+              
+              <input id="btn-agregar" type="button" value="agregar a la tabla">
+              <input id="btn-vaciartabla" type="button" value="vaciar tabla">
+              <input id="btn-agregar3" type="button" value="agregar 3 elementos">
+              
+              
+              
+              
+                <table id="tabla">
                   <tr>
-                    <td>Finneas</td>
-                    <td>Break my heart again</td>
-                    <td>⭐⭐⭐⭐</td>
+                    <th>Artista</th>
+                    <th>Cancion</th>
+                    <th>Rate</th>
                   </tr>
-                  <tr>
-                    <td>Chiquititas</td>
-                    <td>Corazon con agujeritos</td>
-                    <td>⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Lucia Gil</td>
-                    <td>Llueve</td>
-                    <td>⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Kikuo</td>
-                    <td>Aishite Aishite Aishite</td>
-                    <td>⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Queen</td>
-                    <td>The show must go on</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Beret</td>
-                    <td>Diez mil porques</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
-              </table>
+              
+                </table>
         </div>
       </div>
     </main>
