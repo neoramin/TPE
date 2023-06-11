@@ -180,39 +180,7 @@ hr {
 /*Artistas*/
 
 
-.TitulosH3{
-    margin: 2em;
-}
-.BloqueInterior{
-    width: 100%;
-    margin-bottom: 3em;
 
-}
-.BloqueInterior,.Titulosh2{
-    text-align: center;
-}
-.img{
-    width: 340px;
-    height: 250px;
-  
-}
-.img,.Titulosh2{
-    border-radius: 10%;
-}
-.Titulosh2{
-    color: rgb(255, 255, 255);
-    font-size: 60px;
-    background-color: rgb(0, 0, 0);
-    margin-left: 18%;
-    margin-right: 18%;
-}
-.TitulosH3{
-    font-size: 30px;
-    background-color: rgb(255, 0, 140);
-}
-.Parrafo_Artistas{
-    font-size: 25px;
-}
 
 /*mas generos*/
 .general{
