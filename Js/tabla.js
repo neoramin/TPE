@@ -3,21 +3,35 @@ document.addEventListener("DOMContentLoaded", function(){
 
   let formRecomendacion = document.querySelector("#formRecomendacionUser");
   formRecomendacion.addEventListener("submit", agregar);
-
   document.querySelector("#btn-vaciartabla").addEventListener("click", vaciarRecomendacionesUser);
+
+  document.getElementById("btn-resaltar").addEventListener("click", function() {
+    let table = document.getElementById("tabla");
+    let rows = table.getElementsByTagName("tr");
   
+    for (let i = 0; i < rows.length; i++) {
+      let row = rows[i];
+  
+      if (row.lastChild.textContent > 80) {
+        row.classList.toggle("mas-valorada");
+      }
+    }
+  });  
+
+
   let cancionesUsuario = [{
-    "artista": "Justin Bieber",
-    "cancion": "Never say never",
-    "rate": "60%"
-  },{
+    
     "artista": "Michael Jackson",
     "cancion": "Thriller",
-    "rate": "97%"
+    "rate": "89"
+  },{
+    "artista": "Justin Bieber",
+    "cancion": "Never say never",
+    "rate": "65"
   },{
     "artista": "Queen",
     "cancion": "Bohemian Rhapsody",
-    "rate": "100%"
+    "rate": "98"
   }];
   mostrarTabla();
   
@@ -27,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let recomendacion = {
       "artista": formData.get("artista"),
       "cancion": formData.get("cancion"),
-      "rate": formData.get("rate")+"%"
+      "rate": formData.get("rate")
     }
     let id = Number(e.submitter.id);
     for(let i = 1; i <= id; i++){

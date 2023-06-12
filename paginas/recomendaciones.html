@@ -126,10 +126,10 @@
                 <h2>Recomendaciones de la comunidad</h2>
                 <form id="formRecomendacionUser">
                     <label for="name">Nombre del artista:</label>
-                    <input id="artista"type="text" placeholder="artista" name="artista" class="formin">
+                    <input id="artista"type="text" placeholder="artista" name="artista" class="formin" required>
                     <label>Rango de recomendacion :</label><input id="rate"type="range" placeholder="rate" name="rate" class="formin">
                     <label for="name">Ingrese la cancion:</label>
-                    <input id="cancion"type="text" placeholder="cancion" name="cancion" class="formin">
+                    <input id="cancion"type="text" placeholder="cancion" name="cancion" class="formin" required>
                     <input id="1" type="submit" value="agregar a la tabla" class="formin">
                     <input id="3" type="submit" value="agregar 3 elementos" class="formin">
                 </form>
@@ -139,12 +139,13 @@
                         <tr>
                             <th>Artista</th>
                             <th>Cancion</th>
-                            <th>Rate</th>
+                            <th>Lo recomiendo al</th>
                         </tr>
                     </thead>
                     <tbody>
                     </tbody>
                 </table>
+                <button id="btn-resaltar">Resaltar las "más recomendadas"</button>
             </div>            
         </div>
     </main>
