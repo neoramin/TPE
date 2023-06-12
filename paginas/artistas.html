@@ -5,534 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Artistas</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html"><h2>LastPop</h2></a>
+        <div class="head">
+            <a class="inicio" href="../index.html"><h2>LastPop</h2></a>
+            <button id="nav-btn">
+                <img src="../imagenes/boton_menu.png" alt="menu hamburguesa">
+            </button>
+            <nav class="nav-desktop">
+                <ul class="nav-ul">
+                    <li class="li-nav">
+                        <a class="inicio" href="Wiki.html">Wiki</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="artistas.html">Artistas</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="masgeneros.html">Más generos</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="nav-mobile oculto">
             <ul class="nav-ul">
                 <li class="li-nav">
-                    <a href="Wiki.html">Wiki</a>
+                    <a class="inicio" href="Wiki.html">Wiki</a>
                 </li>
                 <li class="li-nav">
-                    <a href="artistas.html">Artistas</a>
+                    <a class="inicio" href="artistas.html">Artistas</a>
                 </li>
                 <li class="li-nav">
-                    <a href="recomendaciones.html">Recomendaciones</a>
+                    <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
                 </li>
                 <li class="li-nav">
-                    <a href="masgeneros.html">Más generos</a>
+                    <a class="inicio" href="masgeneros.html">Más generos</a>
                 </li>
                 <li class="li-nav">
-                    <a href="contacto.html">Contacto</a>
+                    <a class="inicio" href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="bg-gradient">
+    <main>
         <div class="cloud">
-            <div class="Titulosh2">
-                <h2>TOP 10 Artistas del pop nacional.</h2>
-            </div>
-            <div class="general">
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/María_Becerra">
-                        <img src="../imagenes/maria_ becerra.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Maria Becerra</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>María de los Ángeles Becerra (Quilmes, 12 de febrero de 2000) más conocida como María Becerra, es
-                        una cantante, compositora y exyoutuber argentina, se consolidó en 2019 tras el lanzamiento de su EP
-                        (extended play) debut, 222, que incluye las canciones «Tu Lady», «Nada de amor» y «Dime cómo hago».
-                        Con esta última, debutó en el listado Argentina Hot 100 de Billboard. En 2021 lanzó el EP Animal,
-                        parte 1, adelanto de su primer álbum de estudio, Animal, publicado seis meses después, que contiene
-                        canciones como «Acaramelao», «Mi debilidad» y «Wow wow». Su éxito le permitió realizar su gira
-                        Animal Tour.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Emanuel_Ortega">
-                        <img src="../imagenes/emanuel_ortega.png" width="250px" height="150px" class="img">
-                        <div class="TitulosH3">
-                            <h3>Emanuel Ortega</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Emanuel Ortega (Buenos Aires, 18 de octubre de 1977) es un cantante, actor y compositor argentino de
-                        género pop. Entre sus canciones más conocidas se encuentran «Timidez», «Te extrañaré», «Mi pequeño y
-                        gran amor», «Tema de amor», «Y te amaré», «A escondidas» y «Mamita».
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Fito_Páez">
-                        <img src="../imagenes/fito_paez.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Fito Paez</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Rodolfo Páez (Rosario, 13 de marzo de 1963), más conocido como Fito Páez, es un músico, compositor, pianista,
-                        director de cine y cantante argentino. Integrante de la llamada trova rosarina,​ es apodado como El trovador
-                        del rock argentino y está considerado como uno de los más importantes exponentes del rock de su país y de
-                        toda Latinoamérica.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Abel_Pintos"> 
-                        <img src="../imagenes/abel.pintos.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Abel Pintos</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Abel Federico Pintos (Bahía Blanca, 11 de mayo de 1984) es un cantante, compositor y productor argentino de
-                            pop latino. Comenzó su carrera musical a los siete años, tras ser escuchado por Raúl Lavié en un homenaje a
-                            José de San Martín realizado en su colegio.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Raúl_Sagán">
-                        <img src="../imagenes/RaulSagan.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Raul Sagan</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Sagán se destacó durante las décadas de 1960 y 1970 con temas frecuentemente melódicos. Integró la camada
-                            de La Nueva Ola! dirigida por Ricardo Mejía, quien por aquel entonces asumía como gerente general de la
-                            RCA Víctor Argentina
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Pablo_Utrera">
-                        <img src="../imagenes/pablo_utrera.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Pablo Utrera</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Pablo Utrera nació en la provincia de Tucumán, fruto del matrimonio entre Graciela y Antonio César Utrera. Su
-                            primera banda se conformó a mediados del año 2008, bajo el nombre de "Ruta 7", con la que tocaron en varias
-                            ocasiones en Tucumán, con gran aceptación del público.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Diego_Torres">
-                        <img src="../imagenes/diego_torres.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Diego Torres</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Diego Antonio Caccia Torres (Buenos Aires, 9 de marzo de 1971), más conocido como Diego Torres, es un actor,
-                            cantautor y músico argentino que cultiva el género pop latino. Es también un actor ocasional, recordado en
-                            televisión por su papel en Los otros y nosotros, La banda del Golden Rocket y su protagónico en Los vecinos
-                            en guerra.
-                        </p>
-                    </div>    
-                </div>    
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Andrés_Calamaro">
-                        <img src="../imagenes/andres_calamaro.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Andres Calamaro</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Andrés Calamaro (Buenos Aires, Argentina; 22 de agosto de 1961) es un cantautor, músico, compositor y
-                            productor discográfico argentino.
-                            
-                            Es considerado uno de los íconos del rock argentino por su actuación con Los Abuelos de la Nada y su
-                            prolífica carrera como solista, así como una figura influyente del rock español por su éxito con Los
-                            Rodríguez. A lo largo de su vida ha vivido alternando entre Buenos Aires y Madrid. Es hermano del también
-                            cantante Javier Calamaro.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Lali_Espósito">
-                        <img src="../imagenes/lali_esposito.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Lali Esposito</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Mariana «Lali» Espósito (Buenos Aires; 10 de octubre de 1991) es una actriz, cantante y compositora
-                            argentina. Comenzó a actuar de niña a principios de los años 2000 en diversos programas infantojuveniles
-                            de Cris Morena, como Rincón de luz (2003), Floricienta (2004-2005) y Chiquititas sin fin (2006). Se hizo
-                            conocida por su personaje de Marianella Rinaldi en Casi ángeles (2007-2010) y como miembro de la banda
-                            pop derivada de la serie, Teen Angels, con la que grabó seis álbumes de estudio, tres en vivo y el
-                            documental Teen Angels: el adiós 3D.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Alejandro_Lerner">
-                        <img src="../imagenes/alejandro_lerner.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Alejandro Lerner</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>En 1973, con solo 16 años fue invitado por Raúl Porchetto en el grupo Reino de Munt. Sólo un año más tarde,
-                            toca en el segundo LP de León Gieco llamado La banda de los caballos cansados.
-                            En 1975, toca, aunque poco tiempo, en Nito Mestre y Los Desconocidos de Siempre, la banda de Nito Mestre
-                            post Sui Generis; también tocó con Miguel Cantilo y Piero. Al año siguiente, se suma a Soluna, el grupo de
-                            Gustavo Santaolalla y debuta como compositor. Pero el verdadero empujón para su carrera lo daría en 1980, al
-                            incorporarse como pianista y compositor a la banda de Sandra Mihanovich.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="general">
-                <div class="Titulosh2">
-                    <h2>TOP 10 artistas del pop internacional</h2>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Ariana_Grande">
-                        <img src="../imagenes/Ariana_Grande.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Ariana Grande</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Ariana Grande Butera (Boca Ratón, Florida, 26 de junio de 1993) es una cantante, compositora,
-                        empresaria, instrumentista, productora discográfica y actriz estadounidense. Su rango vocal de
-                        cuatro octavas ha recibido elogios de la crítica y su vida personal ha sido objeto de una amplia
-                        atención de los medios. Ha recibido numerosos galardones a lo largo de su carrera, incluidos dos
-                        Premios Grammy, un Premio Brit, un Premio Bambi, dos Billboard Music Awards, tres American Music
-                        Awards, tres MTV Europe Music Awards, nueve MTV Video Music Awards y 30 Guinness World Records.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Billie_Eilish">
-                        <img src="../imagenes/Billie_Eilish.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Billie Eillish</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Billie Eilish Pirate Baird O'Connell (Los Ángeles, California; 18 de diciembre de 2001) conocida
-                            simplemente como Billie Eilish es una cantante y compositora estadounidense. Adquirió fama como artista
-                            cuando tenía 13 años, a raíz del sencillo «Ocean Eyes» que se publicó en 2015 en SoundCloud y volvió a
-                            lanzarse con un vídeo musical en YouTube en 2016, a la edad de 14 años, lo que la convirtió en un
-                            fenómeno viral. En 2017, publicó su EP Don't Smile at Me, producido por su hermano Finneas O'Connell.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Lady_Gaga">
-                        <img src="../imagenes/Lady_Gaga.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Lady Gaga</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Stefani Joanne Angelina Germanotta (Nueva York, 28 de marzo de 1986), más conocida por su nombre artístico
-                            Lady Gaga, es una cantante, compositora, productora, bailarina, actriz, activista y diseñadora de moda
-                            estadounidense. Nacida y criada en la ciudad de Nueva York, estudió en la escuela Convent of the Sacred
-                            Heart y asistió por un tiempo breve a la Tisch School of the Arts, perteneciente a la Universidad de Nueva
-                            York, hasta que abandonó sus estudios para enfocarse en su carrera musical. Fue así como irrumpió en la
-                            escena del rock en el Lower East Side de Manhattan y firmó un contrato con Streamline Records hacia fines de
-                            2007. En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del
-                            artista Akon, quien la hizo firmar un contrato con Kon Live Distribution.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Harry_Styles">
-                        <img src="../imagenes/Harry_Styles.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Harry Styles</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas"> 
-                        <p>Harry Edward Styles (Holmes Chapel, Cheshire; 1 de febrero de 1994) es un cantante, compositor y actor
-                            británico. Inició su carrera como cantante en 2010 como integrante de la boy band One Direction, con la que
-                            participó en el programa The X Factor y quedó en tercer lugar. Pese a no ganar, la agrupación firmó un
-                            contrato discográfico con el sello Syco, con el que publicaron los álbumes Up All Night (2011), Take Me Home
-                            (2012), Midnight Memories (2013), Four (2014) y Made in the A.M. (2015), los cuales alcanzaron la primera
-                            posición en las listas de los más vendidos en numerosos países, entre estos los Estados Unidos y el Reino
-                            Unido, además de registrar altas ventas.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Justin_Bieber">
-                        <img src="../imagenes/Justin_Bieber.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Justin Bieber</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Justin Drew Bieber (London, Ontario; 1 de marzo de 1994) es un cantautor canadiense. En 2008, el
-                            exejecutivo de la industria musical, Scooter Braun, descubrió casualmente el talento de un jovencísimo
-                            Justin Bieber cuando se encontraba viendo algunos vídeos en YouTube, donde Justin se dedicaba a subir
-                            algunas versiones de sus cantantes favoritos que él interpretaba junto a su guitarra. Tiempo después,
-                            Scooter Braun se convirtió en su mánager.​ Scooter Braun reunió a Justin Bieber con el también cantante
-                            estadounidense Usher en Atlanta, Estados Unidos, donde Justin firmaría un contrato con el sello
-                            discográfico de Scooter Braun y Usher, Raymond Braun Media Group (RBMG) y otro contrato con Island
-                            Records, ofrecido por L.A. Reid.
-                        </p>
-                    </div>    
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Miley_Cyrus">
-                    <img src="../imagenes/Miley_Cyrus.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Miley Cyrus</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Miley Ray Cyrus (Franklin, Tennessee, 23 de noviembre de 1992, nacida con el nombre de Destiny Hope Cyrus) es
-                            una cantante y compositora estadounidense dedicada a la actuación y producción discográfica. Destaca por su
-                            voz de tonalidad grave, y su música abarca una amplia gama de estilos como el pop, country pop, hip hop,
-                            experimental y rock.
-                        </p>
-                    </div>     
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Rick_Astley">
-                        <img src="../imagenes/Rick_Astley.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Rick Astley</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Richard Paul Astley (Newton-le-Willows, Lancashire; 6 de febrero de 1966), conocido simplemente como Rick
-                           Astley, es un cantante, compositor, actor, locutor de radio e Icono pop británico. Se convirtió en tendencia
-                           en internet gracias a su famoso meme RickRoll, de la canción Never Gonna Give You Up, compuesta en 1987.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Selena_Gomez">
-                        <img src="../imagenes/Selena_Gomez.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Selena Gomez</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>En 2006, Selena Gomez interpretó el tema principal de Brain Zapped, cortometraje en el que era protagonista.
-                            En 2008 firmó un contrato con Hollywood Records, y desde entonces grabó múltiples bandas sonoras para Disney
-                            Channel. Ese mismo año grabó «Cruella De Vil» para el álbum recopilatorio de Disney, Disneymania 6 y «Fly to
-                            Your Heart» para la película Tinker Bell.Asimismo, grabó «Tell Me Something I Don't Know», «New Classic»,
-                            junto a Drew Seeley y «Bang a Drum» para su película Another Cinderella Story. La primera de estas alcanzó
-                            el número 58 en la lista Billboard Hot 100, lo que la convirtió en la primera canción de Gomez que ingresaba
-                            a la lista.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Lewis_Capaldi">
-                        <img src="../imagenes/lewisCapaldi.jpeg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Lewis Capaldi</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">                        
-                        <p>Lewis Capaldi (Glasgow, Escocia; 7 de octubre de 1996) es un cantante y compositor británico. Desde
-                            temprana edad, mostró gran interés por la música, por lo que comenzó a cantar en lugares públicos a los
-                            9 años, edad en la que ya sabía tocar el piano y la guitarra. Con 17 años, fue descubierto a través de
-                            SoundCloud y firmó un contrato con Virgin EMI Records, donde comenzó a publicar música de manera
-                            oficial.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Taylor_Swift">
-                        <img src="../imagenes/Taylor_Swift.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Taylor Swift</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Taylor Alison Swift (West Reading, Pensilvania; 13 de diciembre de 1989) es una cantautora, productora,
-                        directora, actriz y empresaria estadounidense. Criada en Wyomissing (Pensilvania), se mudó a Nashville
-                        (Tennessee) a los 14 años para realizar una carrera de música country. Firmó con la compañía discográfica
-                        independiente Big Machine Records y se convirtió en la artista más joven contratada por Sony/ATV Music
-                        Publishing House. En 2006 lanzó su álbum debut homónimo, que la estableció como una estrella en la música
-                        Pop. «Our Song», su tercer sencillo, la convirtió en la persona más joven en escribir temas de forma solista
-                        e interpretar una canción número uno en la lista de Hot Country Songs. En 2008 recibió una nominación a
-                        mejor artista nuevo en la 50.ª edición de los Premios Grammy.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="general">
-                <div class="Titulosh2">
-                    <h2>Top 10 bandas del pop </h2>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Miranda!">
-                        <img src="../imagenes/miranda.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Miranda</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Miranda! es un dúo musical argentino de pop liderado por los cantantes Alejandro Sergi y Juliana
-                        Gattas. Fue formado a mediados de 2011 y su nombre es un homenaje al actor argentino Osvaldo
-                        Miranda. Durante su trayectoria han editado ocho álbumes de estudio y seis álbumes en vivo. Han
-                        recibido diversos premios, entre los que se encuentran: Los Premios MTV Latinoamérica, MTV Europe
-                        Music Awards, Premios Carlos Gardel, 40 Principales y Premios Konex.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Pimpinela_(d%C3%BAo)">
-                        <img src="../imagenes/Pimpinela.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Pimpinela</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Pimpinela es un dúo musical argentino formado por los hermanos Lucía Galán y Joaquín Galán. Con una
-                        trayectoria artística de más de 40 años este dúo argentino ha editado veinticuatro discos por los que
-                        han recibido 100 discos entre oro, platino y diamante convirtiéndose en uno de los dúos más importantes
-                        de Latinoamérica y el mundo. Según diversas fuentes, se estima que el dúo ha vendido más de 30 millones
-                        de discos en todo el mundo y han participado en los más lujosos escenarios como el Madison Square
-                        Garden, en el cual, solamente los artistas argentinos Sandro, Palito Ortega, las bandas Los Fabulosos
-                        Cadillacs y La Mosca Tsé-Tsé y el guitarrista Pappo (invitado por B.B. King) han actuado con esta
-                        nacionalidad. Sus temas cuentan con versiones en inglés, italiano y portugués.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Agapornis_(banda)"> 
-                        <img src="../imagenes/Agapornis.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Agapornis</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Agapornis o AGP es un grupo musical de cumbia pop de Argentina, surgido en la ciudad de La Plata a mediados
-                            de mayo del año 2010. A principios de 2013, la vocalista Belén María Condomí Alcorta y el guitarrista
-                            Gonzalo Mendes decidieron alejarse del grupo para dedicarse a sus estudios.​ En reemplazo de ambos se sumó a
-                            la banda la vocalista Melina Lezcano y el guitarrista Joaquín Irigoyen. En 2022 Melina Lezcano dejó de ser
-                            la cantante y fue reemplazada por Aldana Masset.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/MYA">
-                        <img src="../imagenes/MYA.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>MYA</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>MYA es un dúo argentino formado en 2017 en Buenos Aires (Argentina), por sus integrantes Máximo Espíndola y
-                        Agustín Bernasconi. El dúo se conoció grabando la serie Aliados creada por Cris Morena y a su vez se
-                        juntaban a grabar versiones que subían a YouTube. Tras el lanzamiento de su sencillo debut «Amor prohibido»
-                        (2017), la banda ha lanzando hasta la actualidad dos álbumes de estudios: Hoy (2019) y Suena MYA! (2021)
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Bandana_(banda)">
-                        <img src="../imagenes/Bandana.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Bandana</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>MYA es un dúo argentino formado en 2017 en Buenos Aires (Argentina), por sus integrantes Máximo Espíndola
-                        y Agustín Bernasconi. El dúo se conoció grabando la serie Aliados creada por Cris Morena y a su vez se
-                        juntaban a grabar versiones que subían a YouTube. Tras el lanzamiento de su sencillo debut «Amor
-                        prohibido» (2017), la banda ha lanzando hasta la actualidad dos álbumes de estudios: Hoy (2019) y Suena
-                        MYA! (2021)
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Imagine_Dragons">
-                        <img src="../imagenes/Imagine_Dragons.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Imagine Dragons</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Imagine Dragons es una banda estadounidense de pop rock originaria de Las Vegas, Nevada. Está
-                        compuesta por Dan Reynolds (vocalista), Wayne Sermon (guitarrista), Ben McKee (bajista) y Daniel
-                        Platzman (baterista). Ganó el reconocimiento mundial con el lanzamiento de su álbum de estudio debut
-                        Night Visions (2012), y con su canción "It's Time". Billboard los colocó en la cima de su lista de
-                        popularidaddel 2013 "Year In Rock", y los llamó «la banda revelación del 2013».
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Slza">
-                        <img src="../imagenes/Slza.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Slza</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Slza es una banda de pop checa formada por Petr Lexa (voz y teclados) y Lukáš Bundil (guitarra) a
-                            finales de 2014. Consiguieron cosechar gran fama con su sencillo «Lhůta záruční», lanzado el 19 de
-                            octubre de ese mismo año, que les permitió la firma con Universal Music Group y lanzar su primer
-                            álbum, titulado Katarze, el 25 de octubre de 2015.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/The_Rubettes">
-                        <img src="../imagenes/The_Rubettes.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>The Rubettes</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>The Rubettes es un grupo de pop inglés fundado en la década de 1970 caracterizado por vestimentas muy
-                            particulares, entre ellas destacaba el traje y las boinas blancas. Su primer single, "Sugar Baby
-                            Love", lanzado en 1974, llegó al número 1 de las listas de ventas británicas.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Los_Tamara">
-                        <img src="../imagenes/Los_Tamara.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Los Tamara</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Los Tamara fue una banda de pop formada en Noya (La Coruña, España), que fue enormemente popular
-                            en los años 60 y 70, haciendo una nueva forma de música popular gallega, incluyendo nuevas
-                            influencias del Soul y el Rock, arreglos audaces y muchas letras en gallego, incluyendo poemas
-                            de los grandes escritores de la lengua gallega.
-                        </p>
-                    </div>
-                </div>
-                <div class="BloqueInterior">
-                    <a href="https://es.wikipedia.org/wiki/Letto">
-                        <img src="../imagenes/letto.jpg" width="" height="" class="img">
-                        <div class="TitulosH3">
-                            <h3>Letto</h3>
-                        </div>
-                    </a>
-                    <div class="Parrafo_Artistas">
-                        <p>Letto es una banda de género pop formada en Yogyakarta, Indonesia en 2004. El grupo está formado
-                            por el vocalista Noe, Dhedot el baterista, el bajista y guitarrista Arian Patub. Letto son
-                            conocidos por sus grandes éxitos, titulado como "Setengah Hati", "Ruang Rindu", "Sebelum Cahaya"
-                            y "Lubang di Hati". Su primer álbum titulado "Truth, Cry and Lie", fue lanzado en 2006.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <h2>TOP 6 artistas del top nacional</h2>
+            <section class="section-art">
+                <article class="article-art">
+                    <img src="../imagenes/maria_ becerra.jpg" alt="Maria Becerra">
+                    <h3>Maria Becerra</h3>
+                    <p>María de los Ángeles Becerra (Quilmes, 12 de febrero de 2000) más conocida como María Becerra, es
+                        una cantante, compositora y exyoutuber argentina, se consolidó en 2019 tras el lanzamiento de...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/emanuel_ortega.png" alt="Emanuel Ortega">
+                    <h3>Emanuel Ortega</h3>
+                    <p>Emanuel Ortega (Buenos Aires, 18 de octubre de 1977) es un cantante, actor y compositor argentino de
+                        género pop. Entre sus canciones más conocidas se encuentran «Timidez», «Te extrañaré»,...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/fito_paez.jpg" alt="Fito Paez">
+                    <h3>Fito Paez</h3>
+                    <p>Rodolfo Páez (Rosario, 13 de marzo de 1963), más conocido como Fito Páez, es un músico, compositor, pianista,
+                        director de cine y cantante argentino. Integrante de la llamada trova rosarina, es apodado...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/abel.pintos.jpg" alt="Abel Pintos">
+                    <h3>Abel Pintos</h3>
+                    <p>Abel Federico Pintos (Bahía Blanca, 11 de mayo de 1984) es un cantante, compositor y productor argentino de
+                        pop latino. Comenzó su carrera musical a los siete años, tras ser escuchado por...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/RaulSagan.jpg" alt="Raul Sagan">
+                    <h3>Raul Sagan</h3>
+                    <p>Sagán se destacó durante las décadas de 1960 y 1970 con temas frecuentemente melódicos. Integró la camada
+                        de La Nueva Ola! dirigida por Ricardo Mejía, quien por aquel entonces asumía como gerente...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/pablo_utrera.jpg" alt="Pablo Utrera">
+                    <h3>Pablo Utrera</h3>
+                    <p>Pablo Utrera nació en la provincia de Tucumán, fruto del matrimonio entre Graciela y Antonio César Utrera. Su
+                        primera banda se conformó a mediados del año 2008, bajo el nombre de...</p>
+                </article>
+            </section>
+            <h2>TOP 6 artistas del pop Internacional</h2>
+            <section class="section-art">
+                <article class="article-art">
+                    <img src="../imagenes/Ariana_Grande.jpg" alt="Ariana Grande">
+                    <h3>Ariana grande</h3>
+                    <p>Ariana Grande Butera (Boca Ratón, Florida, 26 de junio de 1993) es una cantante, compositora,
+                        empresaria, instrumentista, productora discográfica y actriz estadounidense. Su rango vocal de..</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/Billie_Eilish.jpg" alt="Billie Eilish">
+                    <h3>Bilie Eilish</h3>
+                    <p>Billie Eilish Pirate Baird O'Connell (Los Ángeles, California; 18 de diciembre de 2001) conocida
+                        simplemente como Billie Eilish es una cantante y compositora estadounidense. Adquirió fama como artista...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/Lady_Gaga.jpg" alt="Lady Gaga">
+                    <h3>Lady Gaga</h3>
+                    <p>Stefani Joanne Angelina Germanotta (Nueva York, 28 de marzo de 1986), más conocida por su nombre artístico
+                        Lady Gaga, es una cantante, compositora, productora, bailarina, actriz, activista y diseñadora de moda...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/Harry_Styles.jpg" alt="Harry Styles">
+                    <h3>Harry Styles</h3>
+                    <p>Harry Edward Styles (Holmes Chapel, Cheshire; 1 de febrero de 1994) es un cantante, compositor y actor
+                        británico. Inició su carrera como cantante en 2010 como integrante de la boy band One Direction, con la que...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/Justin_Bieber.jpg" alt="Justin Bieber">
+                    <h3>Justin Bieber</h3>
+                    <p>Justin Drew Bieber (London, Ontario; 1 de marzo de 1994) es un cantautor canadiense. En 2008, el
+                        exejecutivo de la industria musical, Scooter Braun, descubrió casualmente el talento de un jovencísimo...</p>
+                </article>
+                <article class="article-art">
+                    <img src="../imagenes/Miley_Cyrus.jpg" alt="Miley Cyrus">
+                    <h3>Miley Cyrus</h3>
+                    <p>Miley Ray Cyrus (Franklin, Tennessee, 23 de noviembre de 1992, nacida con el nombre de Destiny Hope Cyrus) es
+                        una cantante y compositora estadounidense dedicada a la actuación y producción discográfica. Destaca por su...</p>
+                </article>
+            </section>
         </div>
-
     </main>
     <footer>
         <div class="fdiv-1">
@@ -592,5 +197,6 @@
                 Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>

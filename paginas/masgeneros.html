@@ -5,107 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Más generos</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html"><h2>LastPop</h2></a>
+        <div class="head">
+            <a class="inicio" href="../index.html"><h2>LastPop</h2></a>
+            <button id="nav-btn">
+                <img src="../imagenes/boton_menu.png" alt="menu hamburguesa">
+            </button>
+            <nav class="nav-desktop">
+                <ul class="nav-ul">
+                    <li class="li-nav">
+                        <a class="inicio" href="Wiki.html">Wiki</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="artistas.html">Artistas</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="masgeneros.html">Más generos</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="nav-mobile oculto">
             <ul class="nav-ul">
                 <li class="li-nav">
-                    <a href="Wiki.html">Wiki</a>
+                    <a class="inicio" href="Wiki.html">Wiki</a>
                 </li>
                 <li class="li-nav">
-                    <a href="artistas.html">Artistas</a>
+                    <a class="inicio" href="artistas.html">Artistas</a>
                 </li>
                 <li class="li-nav">
-                    <a href="recomendaciones.html">Recomendaciones</a>
+                    <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
                 </li>
                 <li class="li-nav">
-                    <a href="masgeneros.html">Más generos</a>
+                    <a class="inicio" href="masgeneros.html">Más generos</a>
                 </li>
                 <li class="li-nav">
-                    <a href="contacto.html">Contacto</a>
+                    <a class="inicio" href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="bg-gradient">
+    <main>
         <div class="cloud">
             <section>
-                <h2 class="titulos">Mas Generos</h2>
-                <p class="parrafomasgenero">Generos que te podrian gustar</p>
-                <div class="bgimg-rock">
-                    <div class="h3grande">
-                        <h3>Rock</h3>
-                    </div>
-                </div>
-                <div class="div2x6">
-                    <div class="bgimg-hiphop">
-                        <div class="h3chico">
-                            <h3>Hip-Hop</h3>
+                <h2>Mas Generos</h2>
+                <p class="text-center">Generos que te podrian gustar</p>
+                <div class="generos-scroll">
+                    <div class="gen-container">
+                        <div class="bgimg-rock">
+                            <div class="xl-title text-white">
+                                <h3>Rock</h3>
+                            </div>
+                        </div>
+                        <div class="genpack">
+                            <div class="bgimg-hiphop text-white">
+                                <div class="sm-title">
+                                    <h3>Hip-Hop</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-rap text-white">
+                                <div class="sm-title">
+                                    <h3>Rap</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-electro text-white">
+                                <div class="sm-title">
+                                    <h3>Electronica</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-metal text-white">
+                                <div class="sm-title">
+                                    <h3>Metalica</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-punk text-white">
+                                <div class="sm-title">
+                                    <h3>Punk</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-indie text-white">
+                                <div class="sm-title">
+                                    <h3>Indie</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bgimg-rap">
-                        <div class="h3chico">
-                            <h3>Rap</h3>
+                    <div class="gen-container">
+                        <div class="bgimg-merengue text-white">
+                            <div class="xl-title">
+                                <h3>Merengue</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="bgimg-electro">
-                        <div class="h3chico">
-                            <h3>Electronica</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-metal">
-                        <div class="h3chico">
-                            <h3>Metalica</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-punk">
-                        <div class="h3chico">
-                            <h3>Punk</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-indie">
-                        <div class="h3chico">
-                            <h3>Indie</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="bgimg-merengue">
-                    <div class="h3grande">
-                        <h3>Merengue</h3>
-                    </div>
-                </div>
-                <div class="div2x6">
-                    <div class="bgimg-salsa">
-                        <div class="h3chico">
-                            <h3>Salsa</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-clasica">
-                        <div class="h3chico">
-                            <h3>Clasica</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-jazz">
-                        <div class="h3chico">
-                            <h3>Jazz</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-country">
-                        <div class="h3chico">
-                            <h3>Country</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-reggaeton">
-                        <div class="h3chico">
-                            <h3>Reggaeton</h3>
-                        </div>
-                    </div>
-                    <div class="bgimg-tango">                   
-                        <div class="h3chico">
-                            <h3>Tango</h3>
+                        <div class="genpack">
+                            <div class="bgimg-salsa text-white">
+                                <div class="sm-title">
+                                    <h3>Salsa</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-clasica text-white">
+                                <div class="sm-title">
+                                    <h3>Clasica</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-jazz text-white">
+                                <div class="sm-title">
+                                    <h3>Jazz</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-country text-white">
+                                <div class="sm-title">
+                                    <h3>Country</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-reggaeton text-white">
+                                <div class="sm-title">
+                                    <h3>Reggaeton</h3>
+                                </div>
+                            </div>
+                            <div class="bgimg-tango text-white">                   
+                                <div class="sm-title">
+                                    <h3>Tango</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -170,5 +203,6 @@
                 Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>

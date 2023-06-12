@@ -5,58 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html"><h2>LastPop</h2></a>
+        <div class="head">
+            <a class="inicio" href="../index.html"><h2>LastPop</h2></a>
+            <button id="nav-btn">
+                <img src="../imagenes/boton_menu.png" alt="menu hamburguesa">
+            </button>
+            <nav class="nav-desktop">
+                <ul class="nav-ul">
+                    <li class="li-nav">
+                        <a class="inicio" href="Wiki.html">Wiki</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="artistas.html">Artistas</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="masgeneros.html">Más generos</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="nav-mobile oculto">
             <ul class="nav-ul">
                 <li class="li-nav">
-                    <a href="Wiki.html">Wiki</a>
+                    <a class="inicio" href="Wiki.html">Wiki</a>
                 </li>
                 <li class="li-nav">
-                    <a href="artistas.html">Artistas</a>
+                    <a class="inicio" href="artistas.html">Artistas</a>
                 </li>
                 <li class="li-nav">
-                    <a href="recomendaciones.html">Recomendaciones</a>
+                    <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
                 </li>
                 <li class="li-nav">
-                    <a href="masgeneros.html">Más generos</a>
+                    <a class="inicio" href="masgeneros.html">Más generos</a>
                 </li>
                 <li class="li-nav">
-                    <a href="contacto.html">Contacto</a>
+                    <a class="inicio" href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="bg-gradient">
+    <main>
         <div class="cloud">
             <h2>Cuentanos... ¿Que artista recomendarias y por qué?</h2>
             <div>
-                <h3>Ingresa tus datos</h3>
+                
                 <form action="/action_page.php">
+                    <h3>Ingresa tus datos</h3>
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" placeholder="Nombre" class="formin">
+                    <input type="text" id="name"  name="name" placeholder="Nombre" class="formin">
                     <label for="email">Correo:</label>
-                    <input type="text" id="email" name="email" placeholder="Correo" class="formin">
+                    <input type="text" id="email"  name="email" placeholder="Correo" class="formin">
                     <label for="artist">Artista:</label>
-                    <input type="text" id="artist" name="artist" placeholder="Miley Cyrus" class="formin">
+                    <input type="text" id="artist"  name="artist" placeholder="Miley Cyrus" class="formin">
                     <label for="reason">Motivo:</label>
-                    <input type="text" id="reason" name="reason" placeholder="Lo recomiendo porque.." class="formin">
+                    <input type="text" id="reason"  name="reason" placeholder="Lo recomiendo porque.." class="formin">
                     <input type="submit" value="Enviar">
-                </form>
-                <div class="captcha">
-                    <label for="captcha-input">Enter Captcha</label>
-                    <p id="txt-random" class="preview"></p>
-                    <div class="captcha-form">
-                        <input type="text" id="captcha-form" placeholder="Escriba el código del captcha" class="formin">
-                        <button id="comprobar" type="button" class="captcha-refresh">
-                            checkear
-                        </button>
-                        <p id="verificacion"></p>
+                    <div class="captcha">
+                        <label for="captcha-input">Enter Captcha</label>
+                        <p id="txt-random" class="preview"></p>
+                        <div class="captcha-form">
+                            <input type="text" id="captcha-form" placeholder="Escriba el código del captcha" class="formin">
+                            <button id="comprobar" type="button" class="captcha-refresh">
+                                checkear
+                            </button>
+                            <p id="verificacion"></p>
+                        </div>
                     </div>
-                </div>
+                </form>
+                
             </div>
         </div>
     </main>
@@ -118,6 +147,7 @@
                 Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
     <script src="../Js/captcha.js"></script>
 </body>
 </html>

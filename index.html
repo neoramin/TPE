@@ -5,38 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html"><h2>LastPop</h2></a>
+        <div class="head">
+            <a class="inicio" href="../index.html"><h2>LastPop</h2></a>
+            <button id="nav-btn">
+                <img src="../imagenes/boton_menu.png" alt="menu hamburguesa">
+            </button>
+            <nav class="nav-desktop">
+                <ul class="nav-ul">
+                    <li class="li-nav">
+                        <a class="inicio" href="./paginas/wiki.html">Wiki</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="./paginas/artistas.html">Artistas</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="./paginas/recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="./paginas/masgeneros.html">Más generos</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="./paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="nav-mobile oculto">
             <ul class="nav-ul">
                 <li class="li-nav">
-                    <a href="paginas/Wiki.html">Wiki</a>
+                    <a class="inicio" href="./paginas/wiki.html">Wiki</a>
                 </li>
                 <li class="li-nav">
-                    <a href="paginas/artistas.html">Artistas</a>
+                    <a class="inicio" href="./paginas/artistas.html">Artistas</a>
                 </li>
                 <li class="li-nav">
-                    <a href="paginas/recomendaciones.html">Recomendaciones</a>
+                    <a class="inicio" href="./paginas/recomendaciones.html">Recomendaciones</a>
                 </li>
                 <li class="li-nav">
-                    <a href="paginas/masgeneros.html">Más generos</a>
+                    <a class="inicio" href="./paginas/masgeneros.html">Más generos</a>
                 </li>
                 <li class="li-nav">
-                    <a href="paginas/contacto.html">Contacto</a>
+                    <a class="inicio" href="./paginas/contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="bg-gradient">
+    <main>
         <div class="cloud">
-            <h1>¡Bienvenidos a LastPop!</h1>   
-            <p class="pcloud">Un sitio donde te mantendremos al tanto en lo que al genero Pop Respecta.</p>
-            <p class="pcloud">En este lugar podes encontrar informacion como, los <a href="./paginas/artistas.html">artistas</a> que estan en el top de popularidad, una seccion de <a href="./paginas/recomendaciones.html">recomendaciones</a> personales y de los usuarios, un apartado donde fueron colocados <a href="./paginas/masgeneros.html">más generos</a>para que puedas ampliar tu conocimiento, un formulario de <a href="./paginas/contacto.html">contacto</a> donde puedes dejar tu artista favorito, el motivo y hasta tu cancion favorita del mismo.</p>
-            <p class="pcloud">Y... por si eres nuevo en esto de la musica y recien estas investigando acerca de los diferentes generos que existen, te dejamos una <a href="./paginas/Wiki.html">wiki</a> que explica qué es el pop.</p>
-            <p class="pcloud">Espero que disfrutes tu estadia en LastPop.</p>
+            <h1 class="text-center">¡Bienvenidos a LastPop!</h1>   
+            <p class="text-center-p">Un sitio donde te mantendremos al tanto en lo que al genero Pop Respecta.</p>
+            <p class="text-center-p">En este lugar podes encontrar informacion como, los <a href="./paginas/artistas.html">artistas</a> que estan en el top de popularidad, una seccion de <a href="./paginas/recomendaciones.html">recomendaciones</a> personales y de los usuarios, un apartado donde fueron colocados <a href="./paginas/masgeneros.html">más generos</a>para que puedas ampliar tu conocimiento, un formulario de <a href="./paginas/contacto.html">contacto</a> donde puedes dejar tu artista favorito, el motivo y hasta tu cancion favorita del mismo.</p>
+            <p class="text-center-p">Y... por si eres nuevo en esto de la musica y recien estas investigando acerca de los diferentes generos que existen, te dejamos una <a href="./paginas/Wiki.html">wiki</a> que explica qué es el pop.</p>
+            <p class="text-center-p">Espero que disfrutes tu estadia en LastPop.</p>
         </div>
     </main>
     <footer>
@@ -97,5 +124,6 @@
                 Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

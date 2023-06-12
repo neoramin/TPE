@@ -5,182 +5,208 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Recomendaciones</title>
 </head>
 <body>
-    <header>
-        <nav>
-          <a href="../index.html"><h2>LastPop</h2></a>
-          <ul class="nav-ul">
-            <li class="li-nav">
-                <a href="Wiki.html">Wiki</a>
-            </li>
-            <li class="li-nav">
-                <a href="artistas.html">Artistas</a>
-            </li>
-            <li class="li-nav">
-                <a href="recomendaciones.html">Recomendaciones</a>
-            </li>
-            <li class="li-nav">
-                <a href="masgeneros.html">Más generos</a>
-            </li>
-            <li class="li-nav">
-                <a href="contacto.html">Contacto</a>
-            </li>
-          </ul>
+  <header>
+    <div class="head">
+        <a class="inicio" href="../index.html"><h2>LastPop</h2></a>
+        <button id="nav-btn">
+            <img src="../imagenes/boton_menu.png" alt="menu hamburguesa">
+        </button>
+        <nav class="nav-desktop">
+            <ul class="nav-ul">
+                <li class="li-nav">
+                    <a class="inicio" href="Wiki.html">Wiki</a>
+                </li>
+                <li class="li-nav">
+                    <a class="inicio" href="artistas.html">Artistas</a>
+                </li>
+                <li class="li-nav">
+                    <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
+                </li>
+                <li class="li-nav">
+                    <a class="inicio" href="masgeneros.html">Más generos</a>
+                </li>
+                <li class="li-nav">
+                    <a class="inicio" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
         </nav>
-    </header>
-    <main class="bg-gradient">
-      <div class="cloud">
-        <p>Aqui les dejamos una tabla TOP 10 de recomendaciones personales y otra con las recomendaciones de la comunidad.</p>
-        <p>¡Esperamos que de aquí puedan llevarse su nueva cancion favorita!</p>
-
-        <div>
-            <h2>Recomendaciones personales</h2>
-            <table>
-                <tr>
-                  <th>Artista</th>
-                  <th>Cancion</th>
-                  <th>Rate</th>
-                </tr>
-                <tr>
-                  <td>Demi Lovato</td>
-                  <td>Heart Attack</td>
-                  <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Miranda</td>
-                  <td>Perfecta</td>
-                  <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Lewis Capaldi</td>
-                    <td>Whish you the best</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Abel Pintos</td>
-                    <td>Como te extraño</td>
-                    <td>⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Finneas</td>
-                    <td>Only a lifetime</td>
-                    <td>⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Agapornis</td>
-                    <td>Baila</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Agapornis</td>
-                    <td>Le hace falta un beso</td>
-                    <td>⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Mafumafu</td>
-                    <td>Ototoi kiyagare</td>
-                    <td>⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Ado</td>
-                    <td>Ready-Made</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Mya</td>
-                    <td>2:50</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
-              </table>
-        </div>
-        <div>
-            <h2>Recomendaciones de la comunidad</h2>
-            <form id="formu">
-              <label for="name">Nombre del artista:</label>
-              <input id="artista"type="text" placeholder="artista" name="artista">
-              <label>Rango de recomendacion :</label><input id="rate"type="range" placeholder="rate" name="rate" >
-              <label for="name">Ingrese la cancion:</label>
-              <input id="cancion"type="text" placeholder="cancion" name="cancion">
-              
-              <input id="btn-agregar" type="button" value="agregar a la tabla">
-              <input id="btn-vaciartabla" type="button" value="vaciar tabla">
-              <input id="btn-agregar3" type="button" value="agregar 3 elementos">
-              
-              
-              
-              
-                <table id="tabla">
-                  <tr>
-                    <th>Artista</th>
-                    <th>Cancion</th>
-                    <th>Rate</th>
-                  </tr>
-              
+    </div>
+    <nav class="nav-mobile oculto">
+        <ul class="nav-ul">
+            <li class="li-nav">
+                <a class="inicio"href="Wiki.html">Wiki</a>
+            </li>
+            <li class="li-nav">
+                <a class="inicio" href="artistas.html">Artistas</a>
+            </li>
+            <li class="li-nav">
+                <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
+            </li>
+            <li class="li-nav">
+                <a class="inicio" href="masgeneros.html">Más generos</a>
+            </li>
+            <li class="li-nav">
+                <a class="inicio" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <div class="cloud">
+            <p class="text-center">Aqui les dejamos una tabla TOP 10 de recomendaciones personales y otra con las recomendaciones de la comunidad.</p>
+            <p class="text-center">¡Esperamos que de aquí puedan llevarse su nueva cancion favorita!</p>
+            
+            <div>
+                <h2>Recomendaciones personales</h2>
+                <table>
+                    <tr>
+                        <th>Artista</th>
+                        <th>Cancion</th>
+                        <th>Rate</th>
+                    </tr>
+                    <tr>
+                        <td>Demi Lovato</td>
+                        <td>Heart Attack</td>
+                        <td>⭐ ⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Miranda</td>
+                        <td>Perfecta</td>
+                        <td>⭐ ⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Lewis Capaldi</td>
+                        <td>Whish you the best</td>
+                        <td>⭐ ⭐ ⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Abel Pintos</td>
+                        <td>Como te extraño</td>
+                        <td>⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Finneas</td>
+                        <td>Only a lifetime</td>
+                        <td>⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Agapornis</td>
+                        <td>Baila</td>
+                        <td>⭐ ⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Agapornis</td>
+                        <td>Le hace falta un beso</td>
+                        <td>⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Mafumafu</td>
+                        <td>Ototoi kiyagare</td>
+                        <td>⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Ado</td>
+                        <td>Ready-Made</td>
+                        <td>⭐ ⭐ ⭐ ⭐ ⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Mya</td>
+                        <td>2:50</td>
+                        <td>⭐ ⭐ ⭐ ⭐</td>
+                    </tr>
                 </table>
+            </div>
+            <div class="div-din">
+                <h2>Recomendaciones de la comunidad</h2>
+                <form id="formRecomendacionUser">
+                    <label for="name">Nombre del artista:</label>
+                    <input id="artista"type="text" placeholder="artista" name="artista" class="formin">
+                    <label>Rango de recomendacion :</label><input id="rate"type="range" placeholder="rate" name="rate" class="formin">
+                    <label for="name">Ingrese la cancion:</label>
+                    <input id="cancion"type="text" placeholder="cancion" name="cancion" class="formin">
+                    <input id="1" type="submit" value="agregar a la tabla" class="formin">
+                    <input id="3" type="submit" value="agregar 3 elementos" class="formin">
+                </form>
+                <button id="btn-vaciartabla">Vaciar tabla</button>              
+                <table id="tabla">
+                    <thead> 
+                        <tr>
+                            <th>Artista</th>
+                            <th>Cancion</th>
+                            <th>Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>            
         </div>
-      </div>
     </main>
     <footer>
-      <div class="fdiv-1">
-          <div>
-              <h2>Empresa</h2>
-              <ul>
-                  <li>Acerca de LastPop</li>
-                  <li>Contacto</li>
-                  <li>Empleos</li>
-              </ul>
-          </div>
-          <div>
-              <h2>Ayuda</h2>
-              <ul>
-                  <li>Ayuda de la comunidad</li>
-                  <li>Directrices de la comunidad</li>
-                  <li>Ayuda</li>
-              </ul>
-          </div>
-          <div>
-              <h2>Cuenta</h2>
-              <ul>
-                  <li>Registro</li>
-                  <li>Ingresar</li>
-                  <li>Suscribirse</li>
-              </ul>
-          </div>
-          <div>
-              <h2>Siguenos</h2>
-              <ul>
-                  <li>Facebook</li>
-                  <li>Twitter</li>
-                  <li>Instagram</li>
-                  <li>YouTube</li>
-              </ul>
-          </div>
-      </div>
-      <hr>
-      <div class="fform">
-          <form action="setlang">
-              <input type="submit" value="English" class="bttmfooter">
-              <input type="submit" value="Deutsch" class="bttmfooter">
-              <input type="submit" value="Español" class="bttmfooter">
-              <input type="submit" value="Français" class="bttmfooter">
-              <input type="submit" value="Italiano" class="bttmfooter">
-              <input type="submit" value="日本語" class="bttmfooter">
-              <input type="submit" value="Polski" class="bttmfooter">
-              <input type="submit" value="Português" class="bttmfooter">
-              <input type="submit" value="Русский" class="bttmfooter">
-              <input type="submit" value="Svenska" class="bttmfooter">
-              <input type="submit" value="Türkçe " class="bttmfooter">
-              <input type="submit" value="简体中文" class="bttmfooter">
-          </form>   
-      </div>
-      <div class="fdiv-2">
-          <p>CBS Interactive © 2023 LastPop Todos los derechos reservados Condiciones de uso Política de privacidad Políticas legales Lista de cookies Jobs at Paramount LastPop Music
-              Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
-      </div>
-  </footer>
-  <script type="text/javascript" src="js/main.js" ></script>
+        <div class="fdiv-1">
+            <div>
+                <h2>Empresa</h2>
+                <ul>
+                    <li>Acerca de LastPop</li>
+                    <li>Contacto</li>
+                    <li>Empleos</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Ayuda</h2>
+                <ul>
+                    <li>Ayuda de la comunidad</li>
+                    <li>Directrices de la comunidad</li>
+                    <li>Ayuda</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Cuenta</h2>
+                <ul>
+                    <li>Registro</li>
+                    <li>Ingresar</li>
+                    <li>Suscribirse</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Siguenos</h2>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="fform">
+            <form action="setlang">
+                <input type="submit" value="English" class="bttmfooter">
+                <input type="submit" value="Deutsch" class="bttmfooter">
+                <input type="submit" value="Español" class="bttmfooter">
+                <input type="submit" value="Français" class="bttmfooter">
+                <input type="submit" value="Italiano" class="bttmfooter">
+                <input type="submit" value="日本語" class="bttmfooter">
+                <input type="submit" value="Polski" class="bttmfooter">
+                <input type="submit" value="Português" class="bttmfooter">
+                <input type="submit" value="Русский" class="bttmfooter">
+                <input type="submit" value="Svenska" class="bttmfooter">
+                <input type="submit" value="Türkçe " class="bttmfooter">
+                <input type="submit" value="简体中文" class="bttmfooter">
+            </form>   
+        </div>
+        <div class="fdiv-2">
+            <p>CBS Interactive © 2023 LastPop Todos los derechos reservados Condiciones de uso Política de privacidad Políticas legales Lista de cookies Jobs at Paramount LastPop Music
+                Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="/js/tabla.js"></script>
 </body>
 </html>
-

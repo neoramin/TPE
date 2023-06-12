@@ -5,35 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Wiki</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html"><h2>LastPop</h2></a>
+        <div class="head">
+            <a class="inicio" href="../index.html"><h2>LastPop</h2></a>
+            <button id="nav-btn">
+                <img src="../imagenes/boton_menu.png" alt="menu hamburguesa">
+            </button>
+            <nav class="nav-desktop">
+                <ul class="nav-ul">
+                    <li class="li-nav">
+                        <a class="inicio" href="Wiki.html">Wiki</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="artistas.html">Artistas</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="masgeneros.html">Más generos</a>
+                    </li>
+                    <li class="li-nav">
+                        <a class="inicio" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="nav-mobile oculto">
             <ul class="nav-ul">
                 <li class="li-nav">
-                    <a href="Wiki.html">Wiki</a>
+                    <a class="inicio" href="Wiki.html">Wiki</a>
                 </li>
                 <li class="li-nav">
-                    <a href="artistas.html">Artistas</a>
+                    <a class="inicio" href="artistas.html">Artistas</a>
                 </li>
                 <li class="li-nav">
-                    <a href="recomendaciones.html">Recomendaciones</a>
+                    <a class="inicio" href="recomendaciones.html">Recomendaciones</a>
                 </li>
                 <li class="li-nav">
-                    <a href="masgeneros.html">Más generos</a>
+                    <a class="inicio" href="masgeneros.html">Más generos</a>
                 </li>
                 <li class="li-nav">
-                    <a href="contacto.html">Contacto</a>
+                    <a class="inicio" href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="bg-gradient">
+    <main>
         <div class="cloud">
-            <h1>Hablemos del Pop</h1>
-            <p class="pcloud">La música Pop es un género musical que, al margen de la instrumentación y tecnología aplicada para su creación, conserva la estructura formal "verso - estribillo - verso", ejecutada de un modo sencillo, melódico, pegadizo, y normalmente asimilable para el gran público. Sus grandes diferencias con otros géneros musicales están en las voces melódicas y claras en primer plano y percusiones lineales y repetidas. Empezó en el siglo XX en Inglaterra, en la década de los 60.
+            <h1 class="text-center">Hablemos del Pop</h1>
+            <p class="text-center">La música Pop es un género musical que, al margen de la instrumentación y tecnología aplicada para su creación, conserva la estructura formal "verso - estribillo - verso", ejecutada de un modo sencillo, melódico, pegadizo, y normalmente asimilable para el gran público. Sus grandes diferencias con otros géneros musicales están en las voces melódicas y claras en primer plano y percusiones lineales y repetidas. Empezó en el siglo XX en Inglaterra, en la década de los 60.
             Históricamente, la expresión "música pop" no era entendida como un género musical con características musicales concretas. Lo catalogado como música "Pop", apócope de “música popular”, era entendida como lo contrario a la música de culto, a la música clásica. Bajo esta definición entraban géneros como, el funky, el folk o incluso el jazz. El pop era entendido como ese gran grupo de música para la gente de escasa cultura musical. Con el tiempo, el pop ha ido ganándose su acepción como género musical independiente, librándose, además, del sentido peyorativo y negativo al que se le vinculaba.  
             El pop, recibe el nombre de música popular, es el género musical más extendido entre la cultura juvenil de principios del siglo XXI. Dejando atrás al género rock, aunque éste tenga muchos seguidores y haya servido de influencia, sea directa o indirecta, a muchos intérpretes o grupos de música pop. También podemos decir que dentro del amplísimo género del rock existen intérpretes y bandas que en cierto momento suelen ser considerados música pop.      
             A pesar de ser un género absolutamente híbrido (noise-pop, Britpop, electro-pop, tweed pop), las clasificaciones más conocidas y aceptadas son: indie pop y pop comercial; pop electrónico y pop tradicional. La proliferación del pop y sus múltiples subgéneros hace imposible que estas clasificaciones representen divisiones puras.</p>
@@ -97,5 +124,6 @@
                 Algunos textos de contribuciones de usuarios en esta página están disponibles bajo la Licencia Creative Commons Atribución-CompartirIgual; es posible que se apliquen condiciones adicionales.</p>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>
